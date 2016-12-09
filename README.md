@@ -9,4 +9,4 @@ Once you have the source code and headers copied over, you'll want to create a n
 
 To run the executable, type "./exampleB4d". This should build the geometry and open a visualizer window so you can see if the geometry looks correct. Once the executable is build you need to feed it an input file to have it actually do anything. Mine is called "stuff.in". You should copy this into your "ex" folder. Run the input by typing "/control/execute stuff.in" after you have build the executable. 
 
-The input file uses an energy spectrum given to us by the guys at the NSC to correctly model the neutrons coming out of the core. That spectrum is in a file called "Watt_neutron_pdf.gdat". You should copy this into your "ex" folder.
+The input file uses an energy spectrum given to us by the guys at the NSC to correctly model the neutrons coming out of the core. That spectrum  goes up to 20 MeV and is in a file called "Watt_neutron_pdf.gdat". You should copy this into your "ex" folder.
